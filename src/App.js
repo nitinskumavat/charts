@@ -26,7 +26,7 @@ function App() {
     getData()
     const interval=setInterval(()=>{
       getData();
-    },3*60*1000);
+    },30*1000);
     return ()=>clearInterval(interval)
   },[])
   
@@ -47,7 +47,7 @@ function App() {
         <Tooltip/>
         <Line type="monotone" dataKey="cupcake" stroke="#8884d8"  activeDot={{r: 7}}/>
       </LineChart>
-      <div className="info">Graph will be updated at interval of <span>&#8773;</span>5 minutes</div>
+      <div className="info">Graph will be updated at an interval of <span>&#8773;</span>1 minute</div>
     </div>
 
   )

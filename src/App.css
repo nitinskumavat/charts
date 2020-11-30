@@ -12,6 +12,9 @@ html,body{
   text-align: center;
 }
 
+.info{
+  margin-top: 20px;
+}
 
 .error,.loading{
   position: absolute;
