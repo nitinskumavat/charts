@@ -26,7 +26,7 @@ function App() {
     getData()
     const interval=setInterval(()=>{
       getData();
-    },30*1000);
+    },15*1000);
     return ()=>clearInterval(interval)
   },[])
   
